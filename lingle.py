@@ -7,9 +7,10 @@ from google.cloud.language import types
 client = language.LanguageServiceClient()
 
 # The text to analyze
-text = u'Jenny love Trump. She think he is so handsome. She also like ice-cream'
+text = open("article.txt", 'r')
+text_to_read = text.read()
 document = types.Document(
-    content=text,
+    content=text_to_read,
     type=enums.Document.Type.PLAIN_TEXT)
 
 # Detects the sentiment of the text
