@@ -3,32 +3,25 @@ from django.http import HttpResponse
 from django.views.generic import TemplateView
 from google.cloud import language
 from google.cloud.language import enums, types
+from lingooWEBAPP.forms import HomeForm
+from lingle import set_text
 
 client = language.LanguageServiceClient()
 
-# Create your views here.
-def resultView(request):
-    if request.POST['text']:
-        text = request.POST['text']
-        document = types.Document(
-                   content=text,
-                   type=enums.Document.Type.PLAIN_TEXT
-                   )
-        sentiment = client.analyze_sentiment(document=document).document_sentiment
-        message = "Sentiment: {}".format(sentiment.score)
-        #message = 'You searched for %r' %request.POST['text']
-    else:
-        message = 'You submitted an empty form.'
-    
-    return HttpResponse(message)
-
-
 class HomePageView(TemplateView):
+    template_name = 'index.html'
+    
     def get(self, request, **kwargs):
-        return render(request, 'index.html')
+        form = HomeForm()
+        return render(request, self.template_name, {'form': form})
 
-class ResultPageView(TemplateView):
-    def post(self, request, **kwargs):
-        return render(request, 'results.html')
+    def post(self, request):
+        form = HomeForm(request.POST)
+        if form.is_valid():
+            text = form.cleaned_data['post']
+            form = HomeForm()
+        args = {'form': form, 'text': text}
+        return render(request, self.template_name, args)
+
 
     

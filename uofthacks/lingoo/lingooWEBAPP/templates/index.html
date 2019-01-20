@@ -17,12 +17,16 @@
 	<p> Jan. 19, 2019 </p>
 
 	<div class="form_action">
-	<form action="/get_article/" method="post"> {% csrf_token %}
+	<form action="/get_article/" method="post"> 
+		{% csrf_token %}
 		{{ form.as_p }}
-		<textarea name="text" rows="20" cols="80"></textarea>
 		<br>
-		<input type="submit" value="Analyze">
+		<button type="submit">Analyze</button>
 	</form>
+	
+	<!-- RENDER RESULTS -->
+	<h2> {{ text }} </h2>
+
 	</div>
 
     </body>

@@ -1,0 +1,226 @@
+Biology Research Paper Format
+California State University, Bakersfield
+Department of Biology
+v. 2/19/2014
+http://www.csub.edu/biology/_files/Science_writing_standards.pdf
+Definitions for important terms and concepts (bold and underlined text) may be found in the glossary located at the end of this document.
+A biological research paper is a form of communication in which the investigator succinctly presents and interprets data collected in an investigation. Writing such papers is similar to the writing in other scientific disciplines except that the format will differ as will the criteria for grading. For individual biology courses, students should use this document as a guide as well as refer to course guidelines for individual course assignments.
+Writing the Paper
+The questions and hypotheses that initiate an investigation, the resultant data gathered, and the background information obtained by reading the literature will lead to conclusions. Your research paper presents these conclusions and the appropriate evidence (data and relevant literature). Before writing your report, construct an outline that logically presents the information to support your conclusions. Organize the data into tables and figures to present the evidence in a logical order. Many authors prefer to construct a draft by rapidly putting down ideas with little regard to sentence structure, and to make corrections later. Others prefer to make revisions as they proceed. Write the report with a target audience of other students with experience in biology equivalent to that of the class for which the report is written.
+Proper use of English is considered paramount in grading. Your major responsibility is to make the reader understand exactly what you mean by using words with precision, clarity, and economy. Every sentence should be exact and say something of importance (no "padding"). Economy and accuracy require using straightforward English sentences (subject, verb, and object). Follow a consistent pattern of tenses. Although it is acceptable to write in either the active or passive voice, you should write in the active voice unless you have good reason to use the passive voice. Different biological fields and faculty may have specific requirements for tense or voice and students should consult specific course instructions or instructors for these assignment details.
+Quotations are to be avoided (see below). All sentences should be based on your understanding of source material that you then write as your own original sentences in your own words. Failure to write in your own words or to change sentence structure and content to represent your own thinking and understanding of material is considered plagiarism. Sentences based on published material or information that is not generally known or is “common knowledge” should be cited in the text (for example: A previous study found that calcium also impacted germination (Jones and Jones, 1982)). More information on proper citation format is included later in this document. When discussing the works of others, do not include extraneous information, such as first names, paper titles, or scientific affiliations.
+See below for an example of proper paraphrasing:
+  6
+Original text (from a paper by N. Jones, T. J. Miller, R. J. Nye, and W. E. White, 2005):
+“Yellow-tailed bats are excellent hunters and routinely catch more than their body weight in a single night’s hunting excursion. They hunt by using both visual and aural signals from their insect prey.”
+Example of plagiarized text (note, that even the alteration of a few words from this sentence does not change its form or content and is still considered plagiarism):
+“Jones et al. (2005) found that yellow-tailed bats are good hunters. They hunt by using both visual and aural signals from their insect prey.”
+Quoted text, such as the following, is also inappropriate:
+Jones et al. (2005) found that “yellow-tailed bats are excellent hunters and routinely catch more than their body weight in a single night’s hunting excursion. They hunt by using both visual and aural signals from their insect prey.”
+An example of properly paraphrased and properly cited text:
+Yellow-tailed bats hunt using both visual and auditory stimuli and may catch their weight in insects in a single hunting trip (Jones et al. 2005).
+In scientific writing, the major idea of a paragraph (or sentence) is placed first. Evidence for the idea, modifications, exceptions, etc., follow. This allows readers to quickly skim research reports by reading the first sentence in each paragraph.
+After finishing a draft, review it to see if the paragraphs and sentences follow a logical sequence. Examine the arrangement of paragraphs within a section; some may belong in another section. Make sure that the transitions from one idea to another are clear. Study each sentence to see if it can be clarified, shortened, or omitted. Rewrite as necessary to achieve clarity. This type of review and rewriting is best done after not looking at the manuscript for a few days. Then, you should be able to approach the manuscript with renewed objectivity. Knowledgeable friends and classmates can also help with this review process.
+Type your report using double spacing, 12 point font, left margin justified, and one inch margins. Pages should be numbered. Do not use running heads; your name should only appear on the first page following the title (you do not need to have a title page). Proofread and spell- check your paper to correct errors.
+Paper Format
+Scientific research report format is based on the scientific method and is organized to enable the reader to quickly comprehend the main points of the investigation. The format required in all biology classes consists of a Title, Abstract, Introduction, Methods, Results, Discussion, and Literature Cited sections.
+Section headings (Abstract, Introduction, Results, etc.) are always capitalized, centered, and placed with the body of each section immediately following. The end of one section is immediately followed by the next section on the same page. Do not include a Table of Contents.
+   2
+
+Title
+Your title should be at the top of the first page of your report. The title should be placed on the first page along with your name. You should also list the names of other classmates or research team members who participated in the research project. These additional names should be included below your name.
+Scientific titles should always communicate your results. If you have a null result your title should clearly communicate that (i.e. Light and temperature did not affect the growth of Escherichia coli). Note: avoid the temptation to have a “catchy” title. Your title should communicate information clearly and does not need to be designed to “hook” a reader as a title might in a creative writing class.
+With a title such as “A Biology Lab Report” the reader has no idea whether the work involved an animal, plant, or microorganism, or what was measured or tested. The following is a self-explanatory title (note also how the authors are listed):
+Light and temperature both affect the growth of the bacterium Escherichia coli By: José Garcia
+Danae Jones, Tom Smith, and Blair Miller
+Here the title specifically states three things: the environmental factors that were manipulated (light and temperature); the response of the organism that was measured (growth); and the specific organism that was used (Escherichia coli). Notice that scientific names of organisms are italicized in printed material. Only the genus begins with an uppercase letter.
+If several variables were used, you do not need to state all the specific factors that were manipulated. For example, if several chemicals were used the following title would be acceptable:
+Effects of various chemicals on the growth of Escherichia coli
+In cases such as these, the title would be too long if it included every variable that was used.
+Abstract
+The abstract is a short summary of the study. The abstract should be one paragraph long and no more than 250 words. Abstracts usually contain a sentence of background, clear statements of the hypothesis and predictions, a methods sentence, and a sentence of results. The final sentence should that convey the “big picture” conclusion of your study.
+Introduction
+The Introduction concisely describes the purpose of the investigation and should tell the reader why this work was done. You should briefly review past research on the problem with
+3
+
+enough background information to orient the reader (this is usually accomplished by a literature search of published, peer-reviewed, primary materials). The background information included must be appropriately referenced (see the section on how to cite references).
+Think of the Introduction as a funnel. Start by stating a very broad topic, problem, area of study, etc. You might first discuss the general problem or theory pertaining to the problem you are studying. From this broad introduction, focus down to your specific research topic and project.
+The final paragraph of your introduction should include a statement of the hypothesis you have investigated and your predictions. A hypothesis is a broad general statement of causality for a biological pattern or observation. It is usually a good idea to start a sentence in this paragraph with “We hypothesized that x affects y...” or “It was hypothesized that x affects y...” The hypothesis is usually non-directional and usually states a general “effect” and not that something “increases” or “decreases.” Also include specific prediction statements. A prediction is usually directional, i.e. “We predicted that if x (increased/decreased)..., then y would (increase/decrease)...” State the specific question(s) you are attempting to answer, a brief introduction/justification of the general method used, and how your investigation will help clarify or expand the knowledge in the general area.
+Methods
+In this section, you explain the type of data gathered or the experiment in sufficient detail that it could be repeated. Avoid unnecessary details and include only information that is necessary to complete the experiment or gather the data. The experimental design, apparatus, procedures of gathering and analyzing data, types of control, etc., should be described. If standard procedures are used, cite the reference and describe only the modifications made (if any).
+When experiments are conducted outdoors, you should describe the factors that may influence the results of the investigation such as location of the study site, the weather, etc. If any specimens were collected for the investigation, you should state how, where, and when that material was collected. Photographs, maps, and diagrams (all presented as figures) can be used as an aid in describing the experimental procedures.
+Write the Methods section in the past tense. It should not be written as if it were directions in a laboratory manual; therefore, do not make a list of materials, do not give instructions on how to do something, and do not recount your methods as a sequence of events. Rather, you should focus on the experimental design.
+For example, do not write:
+For this experiment you will need the following equipment: six petri plates, one liter of agar, and one inoculating loop. First pour agar into the six petri plates, then inoculate the plates with a fungus using the inoculating loop. Then you put the plates into the incubator.
+An acceptable manner to convey the same idea as above is:
+   4
+
+Six petri plates were prepared with agar, inoculated with an inoculating loop, and placed in the incubator for 10 hours at 37oC.
+Results
+In this section, you present the data in a straightforward manner with no analysis of the reasons the results occurred or the biological meaning of the data (these comments are reserved for the Discussion). However, you should interpret the data (preferably statistically), highlight significant data and point out patterns, correlations, and generalizations that emerge. Also write this section using the past tense.
+Data are generally organized into tables and/or figures (graphs). Tables must have a table header (above the table) and figures must be accompanied by a caption (below the figure). Both tables and figures must be referred to in the text (see below for an example of how to cite this in the text of your paper). A Results section that includes only a table or a figure and no text is not acceptable. Text must be given first, before tables and figures on a page, if the tables and figures are included in the text rather than on the final pages of your report (see number 5 in the list below for table and figure placement). Unreduced, unsummarized, or “raw” data should not be included. It is not appropriate to include redundant data and the same data should not be included in both table and figure form; rather, the data should be shown in the format that is most clear for the particular type of data collected and analyzed (see below).
+The text of the Results section should describe the results presented in tables and figures and call attention to significant data discussed later in the report. Do not repeat what is already clear to the reader from reviewing the tables and figures, which, if well constructed, will show both the results and experimental design. A portion of the results text might read as follows:
+The number of bacterial colonies increased up to 40oC, but decreased at higher temperatures (Figure 1). The greatest amount of growth occurred between 35° and 40°C.
+In this example, Figure 1 refers to the graph in which the data are presented. In the same sentence, the author says something about the data and refers the reader to the appropriate figure. The figure (graph) may contain numerous data points (e.g., number of bacterial colonies at 1o C intervals from 0o to 60o C), but the author did not bore the reader with a description of each. Rather, generalizations are made concerning the relationships shown by the data, which the figure illustrates (“a picture is worth a thousand words”).
+Use of Tables and Figures
+Tables and figures summarize data in a form that allows the reader to easily see any correlations, relationships, or patterns that are important. Tables are made when it is important that specific values are shown (i.e. means, standard deviations, standard errors, etc.). Figures are made when it is more important to shown trends or relationships of data. Certain requirements, however, must be met:
+1) Refer to the tables as Tables; refer to all other items (graphs, pictures, drawings, maps, etc.) as Figures.
+    5
+
+2) When you include a table and/or figure, you must refer to it in the text. For example, consider the following sentence:
+The results of the temperature experiment are somewhat confusing (Figure 1).
+This sentence tells the reader that all the pertinent data are to be found in Figure 1 and to refer to the figure while reading.
+3) Independently number tables and figures. For example, in a paper containing two tables and two figures, you would number the tables Table 1 and Table 2, and the figures as
+Figure 1 and Figure 2.
+4) Assign tables and figures their respective numbers on the basis of the order in which you first mention them in the text. The first table you mentioned is Table 1, the second is Table 2, etc. The same applies for the figures.
+5) Tables and figures can either follow as closely as possible the actual page on which the table or figure is mentioned in the text or be included on individual pages following Literature Cited. Ask your instructor for their preference.
+6) All tables must have headers and figures must have self-explanatory captions. The rules for composing the headers and captions are the same as for composing the title of the paper. The reader should be able to look at a table or figure and by reading the caption know exactly what was done in that part of the experiment without having to read the text for an explanation. If appropriate, the sample size should also be included.
+7) All tables and figures should include the units of measurement used (grams (g), meters (m), seconds (s), etc.). Otherwise the data are meaningless. All columns in a table and both axes (X axis and Y axis) of a graph must be independently labeled including units. Units are usually included parenthetically in axes labels. For instance, an appropriate axis label may be: Time (min).
+8) Headers for tables are always placed above the table, and captions for figures are always placed below the figure.
+Discussion
+Your discussion should be organized as an inverted funnel. Start by explaining in a paragraph or two the results of your specific study and whether your hypothesis was supported or not. After you have explained your results, you should expand the discussion by comparing your results to published studies. Compare and contrast your results to those of previous studies, making sure to reference them properly. You should explain differences from or similarities to any related experiments completed by other researchers.
+If your results differ from those of previously published studies, you should discuss this biologically. In constructing explanations, you reach conclusions that explain the outcome,
+6
+
+support those conclusions with well reasoned arguments, and documentation from the scientific literature. In effect, you are presenting and defending a point of view in the discussion section.
+It is important to remember that just because your results are different from the results of others it does not mean that you did something wrong. You should NOT discuss errors that you may have made or things that you may have done wrong if they are not supported by evidence from your study and verifiable information: this is not something that is included in scientific papers in biology! Do not ramble on about potential errors or blame your research team for unexpected results.
+You should conclude with a final paragraph describing how your results apply to some broader topic (most likely the topic that you first started your Introduction with). This should expand your results to, for instance, all trees, all plants, the globe, etc., for a broad themed conclusion. This should be on the same topic as the final “big picture” sentence of your Abstract.
+Literature Cited
+Citing literature in the text of the paper
+Whenever you mention information that is not common knowledge or was not obtained personally (through experiments or observations), you must include a reference to indicate the source of that information. Failure to cite the work of others not only does not give proper credit to the researchers, but is considered plagiarism.
+There are several ways that references can be cited in a scientific paper. You must follow the format described here. Scientific papers usually do not use footnotes (so do not). Following, there are several examples of appropriate ways to cite scientific publications in the text of your paper:
+For a single authored publication you may use either of the following:
+Most of the information in this guide on how to write a scientific research report originally appeared in Gubanich (1985).
+Purple flowers are often pollinated by yellow-tailed bats at higher latitudes (Martinez 2001).
+For two authored publications, these are appropriate in-text citation formats:
+Some birds are primarily insectivorous and probably obtain all the water they need from the body fluids of the insects they eat (Jones and Smith 1963).
+Johnston and Peters (2014) also showed that pigs sometimes vomit after eating pickled yams.
+However, use the later way of referencing sparingly, as the information is the most important part of the sentence, not the authors.
+If three or more authors wrote a single reference (such as Oksche, Farner, Serventy, Wolff and Nichols 1963), the citation is abbreviated as follows:
+ 7
+
+The zebra finch was found to differ in these respects from the species observed in this study (Oksche et al. 1963).
+In this case only the last name of the first author is used, followed by the abbreviation et al. Both are Latin; et means “and” and al. is an abbreviation meaning “others” (hence, “and others”). When this reference is listed in Literature Cited, however, all the authors must be included.
+If reference to more than one publication is required in the same sentence, place the citations in the appropriate parts of that sentence, as shown below:
+Although not all birds have to drink water (Jones and Smith 1963), there are numerous exceptions (Taylor 1964, Smith and Smith 1968, Altert et al. 1969). The metabolic rate of the species seems to play a role (Harrigan 1965) as well as the food source (Montegomery and Landers 1966).
+The Literature Cited section
+The Literature Cited lists, in alphabetical order by the last name of the first author, all published information that was referred to in the paper. This section provides the reader with the information needed to access the original sources. Note that the Literature Cited includes only those references that were actually cited. Any other information that you may have read concerning the problem but did not mention (cite) in the paper is not included. This is why the section is called Literature Cited, instead of References or Bibliography. Literature Cited is always the last section of your paper.
+The proper order of the citation is: author(s), year of publication, title of article, and source (name of journal or book in which the article appears). The first author is listed last name first followed by the initials; other authors are listed with initials before the last name. The last author is separated from the preceding authors by the word "and." No quotation marks (or underlining) are used in the citation, not even around the titles of articles. Only proper nouns are capitalized in the title of the article. However, the first letters of book titles or journals are capitalized. If the source is a journal, the name of the journal is followed by the volume number and the page numbers (e.g., Ecology 49:212-214).
+If the information comes from a book in which the chapters are credited to different authors, the reference in Literature Cited is credited to the author of the chapter and the title of the article is the chapter title. In this case the page numbers, editor(s) of the book and book title are given as the source. If the information comes from a book in which chapters are not credited to different authors, the title of the article is the book title. When citing a book, the name of the publisher and the city are always given. Sample citations are listed below:
+Follow these examples when listing citations in the Literature Cited Section. Note that citations use hanging indents.
+Articles from journals
+Smith, P. T., S. Kambhampati, and K. A. Armstrong. 2003. Phylogenetic relationships among Bactrocera species (Diptera: Tephritidae) inferred from mitochondrial DNA sequences. Molecular Phylogenetics and Evolution 26: 8-17.
+Hoetker, G. M., and K. W. Gobalet. 1999. A fossil razorback sucker (Pisces: Catostomidae, Xyrauchen texanus) from Southern California. Copeia 1999: 755-599.
+McBride, T. A., B. W. Stockert, F. A. Gorin, and R. C. Carlsen. 2000. Stretch-activated ion channels contribute to membrane depolarization after eccentric exercise. Journal of Applied Physiology 88: 91-101.
+8
+
+Books
+Bury, R. B., and D. J. Germano. 1994. Biology of North American Tortoises. United States Department of the Interior, National Biological Survey, Wildlife Research No. 13. Washington, D. C.
+Gubanich, A.A. 1985. Writing a Scientific Paper: How to Survive the Laboratory Research Report. Kendall/Hunt Publishing Co., Dubuque, IA.
+Chapter in a book
+Davis, S. D., K. J. Kolb, and K. P. Barton. 1998. Ecophysiological processes and demographic patterns in the structuring of California chaparral. Pages 297-310 in: Landscape Disturbance and Biodiversity in Mediterranean-type Ecosystems. Ecological Studies Volume 136. Rundel, P., W. G. Montenegro, and F. Jaksic, editors. Springer Verlag, Berlin.
+Internet Sources
+With few exceptions, online sources may not be cited unless they are online peer-reviewed literature (e-journals). If you have an item (such as online weather data or government publications), speak to your instructor about specific requirements for citations and check with them regarding the acceptability of these types of publications and sources.
+Online internet articles (ejournals)
+If the article can only be found on the internet, cite the reference as follows:
+Higginbotham, S., W.R. Wong, R.G. Linington, C. Spadafora, L. Iturrado, and A.E. Arnold. 2014. Sloth hair as a
+novel source of fungi with potent anti-parasitic, anti-cancer and anti-bacterial bioactivity. PLoS ONE 9:
+e84549. doi:10.1371/journal.pone.0084549.
+(Note, there is no URL information or access date included as part of this citation).
+  9
+
+Tables
+Tables should be constructed as shown below with only three rules (horizontal lines) and no vertical lines. Table headers should be detailed and placed above the body of the table.
+Table 1. Grip strengths (Newtons, N) of dominant and non-dominant hands using a hand dynamometer. Data are for college-age students. n=9 in each group, s=standard deviation, SE=standard error, LCL and UCL are lower and upper confidence limits for the 95% confidence interval of the mean, respectively.
+     mean s SE
+Dominant Hand 31.6 2.53 0.844 Non-dominant Hand 27.1 3.41 1.14
+95% CI LCL UCL
+29.9 33.3 24.8 29.3
+       Table 2. The height (mean ± 1 SE) and sample size (n) of dwarf pea plants was significantly different (P = 0.012) between those treated with brassinosteroid hormones and those that were not treated with hormone.
+Experimental Group n
+Brassinosteroid treated 4 Control 4
+   Plant height (cm)
+64.3 ± 4.5 30.1 ± 6.1
+    10
+
+Table 3. The number of items (% of total items, % frequency of scats) found in scats of Gambelia sila from the Kern Front Oil Field and the Lokern Natural Area, Kern Co. and the Elkhorn Plain Natural Area, San Luis Obispo Co., California. Bolded entries are the total for the order. The n value denotes the number of scats collected per area.
+       Taxon
+Coleoptera Carabidae
+Cucurlionidae Scarabidae Tenebrionidae Unidentified
+Diptera Muscidae
+Unidentified
+Hymenoptera Formicidae
+Vespidae Unidentified
+Orthoptera Acrididae
+Unidentified
+Total Items
+Kern Front (n = 42)
+4 (8%, 9.5%)
+4 (8%, 9.5%)
+1 (2%, 2.4%)
+1 (2%, 2.4%)
+2 (4%, 4.8%)
+1 (2%, 2.4%)
+1 (2%, 2.4%)
+43 (86%, 95.2%)
+30 (60%, 66.7%) 13 (26%, 28.6%)
+50
+Elkhorn (n = 19)
+38 (69.0%, 94.7%)
+6 (10.9%, 21%)
+5 (9.1%, 15.8%) 13 (23.6%, 15.8%) 14 (25.5%, 42.1%)
+9 (16.4%, 26.3%)
+6 (10.9%, 10.5%) 2 (3.6%, 10.5%) 1 (1.8%, 5.3%)
+7 (12.7%, 36.8%)
+1 (1.8%, 5.3%) 6 (10.9%, 31.6%)
+55
+Lokern (n = 10)
+30 (83.3%, 90.0%)
+9 (25%, 33%) 4 (11.1%, 10%)
+17 (47.2%, 50%)
+2 (5.6%, 20%)
+2 (6.5%, 25%)
+4 (11.1%, 40%)
+3 (8.3%, 33%) 1 (2.8%, 10.0%)
+36
+Combined (n = 69)
+72 (51.1%, 43.7%)
+15 (10.6%, 9.9%) 4 ( 2.8%, 1.4%) 5 (3.7%, 4.3%) 13 (9.6%, 4.3%) 35 (24.8%, 23.9%)
+3 (2.1%, 4.2%)
+1 (0.7%, 1.4%) 2 (1.4%, 2.9%)
+11 (7.8%, 9.9%)
+7 (5.0%, 4.2%) 2 (1.4%, 2.8%) 2 (1.4%, 2.8%)
+54 (38.3%, 71.8%)
+34 (24.1%, 45.1%) 20 (14.2%, 26.8%)
+141
+              11
+
+Figures
+Figures encompass anything that is not data in a table. A figure could be a graph, a map, a line drawing of piece of an organism, a picture of an unusually piece of equipment used in the study, etc. Description captions for figures are placed below a figure. Different faculty and/or biological fields may differ in their standards and expectations for figure format and students should consult specific course instructions or instructors for these assignment details.
+Figure 1. The mean change in mass (g) of antacid tablets exposed for ten minutes to different concentrations of HCl. n=10 antacids in 0.1 M, 11 in 0.2 M. The central horizontal lines represent the means and error bars represent the 95% confidence interval.
+Figure 2. The frequency of carapace lengths (by size category) of western pond turtles at Goose Lake, California in 1997.
+  12
+
+ 80
+60
+40
+20
+0
+           Hormone
+Control
+Experimental Groups
+Figure 3. The height of dwarf pea plants (mean ± 1 SE) as it varied with the application of gibberellic acid compared to control plants that did not receive a hormone treatment (n = 4 for each experimental group) (P = 0.023).
+13
+Plant Height (cm)
+
+Glossary of Important Terms
+et al. –Abbreviation of Latin that means “and others.” When journal articles have three or more authors, the authors are referred to in abbreviated form in in-text citations using only the last name of the first author followed by “et al.” Example, an in-text for a paper published in 2014 by R. J. Vander, F. G. Dross, and P. I. Pepper would be cited in the text as Vander et al. 2014. Note, et al. is frequently italicized because it is Latin.
+hypothesis (pl. hypotheses) –A broad general statement of causality for a biological pattern or observation that is usually presented as an “x affects y” statement. In this format, the “x” refers to the independent variable and the “y” refers to the dependent variable. Thus, a hypothesis statement generally identifies that variable that is causing change (x) and the variable that is effected (y). This same pattern carries into the presentation of results, where the “x” is typically shown on the x-axis of a graph and the “y” is typically shown on the y-axis of a graph. The hypothesis is usually non-directional and states a general “effect” and does not state that something “increases” or “decreases.”
+paraphrase –A restatement of text, usually in summarized form, that is used to convey complex ideas in a more concise and clear form. Paraphrasing is most often used to present the main ideas of previously published studies as they specifically relate to a different study. Paraphrasing often involves the “translation” of highly technical and scientific text into a more easily understood and communicated form.
+peer-review –In the context of scientific papers and publications, refers to the evaluation of a study by a group of experts from a specific field-of-study. Most professional scientific journals are “peer-reviewed.” This means that papers published in these journals have passed through a rigorous evaluation process and have been deemed to be methodologically sound, clearly presented, and to contribute to scientific understanding. Internet sources and some books have generally not passed through this same review process and are generally not considered acceptable sources of information in scientific reports.
+plagiarism –Use of another’s words, thoughts, or ideas without permission and without adequate credit to the original authors. This includes closely imitating the language and wording of a source or presenting ideas in the same context and order. Because direct quotes are not acceptable in biological papers, writers must take care to always properly paraphrase the work of others and to always properly cite sources of information.
+prediction –A specific statement indicating the direction of a hypothesized biological pattern. A prediction statement is usually less broad than a hypothesis statement and is presented as the anticipated pattern for the specific test being evaluated within an experiment. For instance, a hypothesis may state that flower color affects pollinator visitation, but a prediction would more specifically indicate that in the present experiment yellow flowers were expected to have increased bee visits when compared to blue flowers. In the prediction, both the limited set of colors and specific type of pollinator are identified. A prediction is usually directional, i.e. “We predicted that if x (increased/decreased)..., then y would (increase/decrease)...”
+14
+
+scientific method –A way of evaluating natural patterns and phenomena and testing potential sources for causality and influence on measurable biological traits. This usually comes in the form of defined methodological steps that include observation, the identification of a question or problem, proposing a hypothesis and predictions, experimenting or testing the proposed hypothesis, evaluating the resulting data and comparing these data to previously published work on the same or similar hypotheses, and then disseminating the new synthesized findings through presentations and/or publications. Because any single hypothesis may be tested in numerous ways and using a variety of experimental systems or species, any individual study does not irrefutably “prove” or “disprove” a hypothesis; thus, the results of an experiment are always discussed as “supporting” or “not supporting” a hypothesis.
+15
