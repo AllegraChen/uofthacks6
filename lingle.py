@@ -54,16 +54,18 @@ for j in range(0, length - 1):
 print('Text: {}'.format(text))
 print('Sentiment: {}, {}'.format(sentiment.score, sentiment.magnitude))
 
-
 for entity in response.entities:
     entity_type = enums.Entity.Type(entity.type)
     if entity_type.name == "OTHER":
+        index = text_name.index(entity.name)
         text_name.remove(entity.name)
+        del text_score[index]
 
 print(len(text_name))
 
 i = min(3, len(text_name))
 first_three_entities = text_name[:i]
+first_three_entities_score = text_score[:i]
 
 sentence_list = find_sentences(text_to_read)
 list_extract = []
