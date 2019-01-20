@@ -8,7 +8,7 @@ from split_article import find_sentences
 client = language.LanguageServiceClient()
 
 # The text to analyze
-text = open("article.txt", 'r')
+text = open("article.txt", 'r', encoding="utf8")
 text_to_read = text.read()
 document = types.Document(content=text_to_read,
                           type=enums.Document.Type.PLAIN_TEXT)
@@ -35,8 +35,6 @@ for entity in response.entities:
     text_type.append(entity.type)
     text_metadata.append(entity.metadata)
     text_salience.append(entity.salience)
-    if entity.name != response_two.entities[i].name
-        print("wrong")
     text_score.append(response_two.entities[i].sentiment.score)
     i = i + 1
 
