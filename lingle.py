@@ -49,8 +49,7 @@ for j in range(0, length - 1):
                                                      text_metadata[k]
             text_salience[k], text_salience[k + 1] = text_salience[k + 1], \
                                                      text_salience[k]
-            text_score[k], text_score[k + 1] = text_score[k + 1], text_score[k], \
-                                               text_salience[k]
+            text_score[k], text_score[k + 1] = text_score[k + 1], text_score[k]
 
 print('Text: {}'.format(text))
 print('Sentiment: {}, {}'.format(sentiment.score, sentiment.magnitude))
