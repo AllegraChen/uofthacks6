@@ -46,9 +46,9 @@ for j in range(0, length - 1):
             text_name[k], text_name[k + 1] = text_name[k + 1], text_name[k]
             text_type[k], text_type[k + 1] = text_type[k + 1], text_type[k]
             text_metadata[k], text_metadata[k + 1] = text_metadata[k + 1], \
-                                                     text_metadata[k]
+                text_metadata[k]
             text_salience[k], text_salience[k + 1] = text_salience[k + 1], \
-                                                     text_salience[k]
+                text_salience[k]
             text_score[k], text_score[k + 1] = text_score[k + 1], text_score[k]
 
 # remove the entities with type == OTHER from text_name
@@ -59,13 +59,14 @@ for entity in response.entities:
         text_name.remove(entity.name)
         del text_score[index]
 
-# take the first 3 entities with the highest salience, if the len(text_name) >= 3
-#otherwise, take all entities in text_name
+# take the first 3 entities with the highest salience,
+# if the len(text_name) >= 3
+# otherwise, take all entities in text_name
 i = min(3, len(text_name))
 first_three_entities = text_name[:i]
 first_three_entities_score = text_score[:i]
 
-# add the sentence containg one of the three entities into list_extract
+# add the sentence containing one of the three entities into list_extract
 sentence_list = find_sentences(text_to_read)
 blue = []
 red = []
