@@ -4,7 +4,8 @@ from django.views.generic import TemplateView
 from google.cloud import language
 from google.cloud.language import enums, types
 from lingooWEBAPP.forms import HomeForm
-from lingle import set_text
+from lingooWEBAPP.lingle import get_blue, get_red, get_yellow
+from lingooWEBAPP.split_article import find_sentences
 
 client = language.LanguageServiceClient()
 
@@ -19,9 +20,17 @@ class HomePageView(TemplateView):
         form = HomeForm(request.POST)
         if form.is_valid():
             text = form.cleaned_data['post']
+            sentences = find_sentences(text)
             form = HomeForm()
-        args = {'form': form, 'text': text}
-        return render(request, self.template_name, args)
+            yellow_text = get_yellow(text)
+            blue_text = get_blue(text)
+            red_text = get_red(text)
+            args = {'form': form, 'sentences': sentences, 'ytext': yellow_text, 'btext': blue_text, 'rtext': red_text}
+            #args = {'form': form, 'num': num}
+            return render(request, self.template_name, args)
+
+        
 
 
+    
     

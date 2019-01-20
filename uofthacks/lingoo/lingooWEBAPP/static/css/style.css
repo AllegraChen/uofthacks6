@@ -12,13 +12,15 @@ body {
 	color: #333333; 
 	background-color: #DEE5FF;
   	padding: 25px;
+	padding-bottom: 300px;
 
 }
 
 h1 {
 	padding: 20px;
-	font-size: 25px;
-	color: red;
+	font-size: 50px;
+	color: black;
+	font-family: Raleway;
 	
 }
 
@@ -26,5 +28,46 @@ form {
 	height: 200px;
 	width: 400px;
 	font-size:12pt;
+
+}
+
+#yellow {
+	background-color: rgba(253, 253, 150, 0.4);
+}
+
+#red {
+	background-color: rgba(255, 0, 0, 0.2);
+
+}
+
+#blue {
+	background-color: rgba(121, 210, 230, 0.4);
+
+}
+
+#grey {
+	background-color: rgba(75, 75, 75, 0.15);
+
+}
+
+#the_form {
+	size: 40px;
+}
+
+.howtouse {
+	font-weight: bold;
+}
+
+input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+  padding: 0px;
+  height: 5em;
+}
+
+p {
+	font-family: Ruluko;
+	text-size: 25px;
 
 }

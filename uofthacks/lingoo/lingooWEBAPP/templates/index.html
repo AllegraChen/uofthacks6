@@ -6,6 +6,10 @@
     <head>
         <meta charset="utf-8">
         <title>Lingle: Natural Language Processor</title>
+	<!-- Google Fonts --> 
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ruluko" rel="stylesheet">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
@@ -13,21 +17,93 @@
 
     <body style="background-color:"blue">
         <h1>LINGLE</h1>
-	<p> Pronounced like 'Lingo', Lingle is named after linguistic interest and utilization of Google Cloud's Natural Language Processing API. By extracting the category and general attitude of a peice of text, a user can easily connect keywords and the sentiments surrounding important keywords to aid in the identification of bias in a piece of text.</p>
-	<p> Jan. 19, 2019 </p>
+	<p class="howtouse"> ABOUT: </p>
+	<p> Pronounced more like 'Lingo' or 'Lingual'? You decide! Lingle (a portmanteu of Lingual and Google) is named after linguistic interest of its creators and utilization of <b>Google Cloud's Natural Language Processing API </b>. By extracting the entities and general attitude of a peice of text surrounding those entities, a user can easily identify key sentences in a piece of text and the sentiments surrounding it to aid in the identification of bias in a piece of text.</p>
+	<p> UofTHacksVI, Jan. 19, 2019. </p>
+	<p> Developed by Allegra Chen, Xinyi Ji, and Faye Tan </p>
+	<p> Tools: Python, HTML/CSS, Django, Google Cloud Natural Language API </p>
+	<br>
+	<p class="howtouse"> HOW TO USE:</p>
+	<p> Simple copy & paste your text in the box and select 'Analyze'.</p>
+	<p id="red"> Red highlight </p>	<p> means there are positive sentiments associated with a focal entity of the text.</p>
+	<p id="blue"> Blue highlight </p> <p> means there are negative sentiments associated with a focal entity of the text.</p>
+	<p id="yellow"> Yellow highlight </p> <p> means there are both positive and negative sentiments associated with a docal entity of the text.</p>
+	<p id="grey"> Grey highlight </p> <p> means the sentence either does not concern the focal point of the text as a whole, or is void of both positive and negative sentiments.</p>
 
-	<div class="form_action">
-	<form action="/get_article/" method="post"> 
+	<div class="form_action" id="demo">
+	<form id="the_form" action="/get_article/" method="post"> 
 		{% csrf_token %}
 		{{ form.as_p }}
 		<br>
-		<button type="submit">Analyze</button>
+		<button type="submit" >Analyze</button>
 	</form>
+
 	
-	<!-- RENDER RESULTS -->
-	<h2> {{ text }} </h2>
+	<!-- RENDER RESULTS 
+	<p id="description"> Highlighed in yellow,... </p>
+	<br>
+	{% for y in ytext %}
+		<p id="yellow"> {{ y }} </p>
+	{% endfor %}
+	{% for r in rtext %}
+		<p id="red"> {{ r }} </p>
+	{% endfor %}
+	{% for b in btext %}
+		<p id="blue"> {{ b }} </p>
+	{% endfor %}
+	-->
+
+	{% for s in sentences %}
+		{% if s in ytext %}
+			<p id="yellow"> {{ s }} </p>
+		{% endif %}
+		{% if s in rtext %}
+			<p id="red"> {{ s }} </p>
+		{% endif %}
+		{% if s in btext %}
+			<p id="blue"> {{ s }} </p>
+		{% endif %}
+		{% if s not in ytext and s not in btext and s not in rtext  %}
+			<p id="grey"> {{ s }} </p>
+		{% endif %}
+	{% endfor %}
 
 	</div>
+	
+	<!-- NOT WORKING
+	<script type="text/javascript">
+	function sentence() {
+		var x="", i;
+		var array = {{ sentences|length }}
+		for (i = 0; i < array ; i++) {
+			if (sentences.i  in ytext  ) {
+				x = x +  sentences.i ;
+			} else if ( sentences.i  in  btext  ) {
+				x = x + sentences.i ;
+			} else if( sentences.i in  rtext ) {
+				x = x + sentences.i ;
+			} else {
+				x = x +  sentences.i ; 
+			}
+
+		}
+		document.getElementById("demo").innerHTML = x;
+	}
+
+	</script>
+
+	<script>
+	function myFunction() {
+  		var x ="", i;
+		var array = {{ sentences}};
+ 		for (i=1; i<= 6; i++) {
+    			x = x + "<h" + i + ">Heading " + i + "</h" + i + ">";
+  		}
+  		document.getElementById("demo").innerHTML = x;	
+	}
+	</script>
+	-->
+	
 
     </body>
 </html>
