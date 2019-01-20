@@ -35,8 +35,6 @@ for entity in response.entities:
     text_type.append(entity.type)
     text_metadata.append(entity.metadata)
     text_salience.append(entity.salience)
-    if entity.name != response_two.entities[i].name
-        print("wrong")
     text_score.append(response_two.entities[i].sentiment.score)
     i = i + 1
 
@@ -51,8 +49,7 @@ for j in range(0, length - 1):
                                                      text_metadata[k]
             text_salience[k], text_salience[k + 1] = text_salience[k + 1], \
                                                      text_salience[k]
-            text_score[k], text_score[k + 1] = text_score[k + 1], text_score[k], \
-                                               text_salience[k]
+            text_score[k], text_score[k + 1] = text_score[k + 1], text_score[k]
 
 print('Text: {}'.format(text))
 print('Sentiment: {}, {}'.format(sentiment.score, sentiment.magnitude))
