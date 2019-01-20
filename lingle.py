@@ -2,15 +2,16 @@
 from google.cloud import language
 from google.cloud.language import enums
 from google.cloud.language import types
+from split_article import find_sentences
 
 # Instantiates a client
 client = language.LanguageServiceClient()
 
 # The text to analyze
-text = u'Jenny love Trump. She think he is so handsome. She also like ice-cream'
-document = types.Document(
-    content=text,
-    type=enums.Document.Type.PLAIN_TEXT)
+text = open("article.txt", 'r')
+text_to_read = text.read()
+document = types.Document(content=text_to_read,
+                          type=enums.Document.Type.PLAIN_TEXT)
 
 # Detects the sentiment of the text
 sentiment = client.analyze_sentiment(document=document).document_sentiment
@@ -19,6 +20,7 @@ response = client.analyze_entities(document=document, encoding_type='UTF32')
 # Detects the entities' score of the text
 response_two = client.analyze_entity_sentiment(document=document,
                                                encoding_type='UTF32')
+
 # build four list containing all the information from the text
 # like the name, type,metadata and salience
 i = 0
@@ -33,8 +35,8 @@ for entity in response.entities:
     text_type.append(entity.type)
     text_metadata.append(entity.metadata)
     text_salience.append(entity.salience)
-    if entity.name != response_two.entities[i].name:
-        print("wrong!")
+    if entity.name != response_two.entities[i].name
+        print("wrong")
     text_score.append(response_two.entities[i].sentiment.score)
     i = i + 1
 
@@ -49,8 +51,12 @@ for j in range(0, length - 1):
                                                      text_metadata[k]
             text_salience[k], text_salience[k + 1] = text_salience[k + 1], \
                                                      text_salience[k]
-            text_score[k], text_score[k + 1] = text_score[k + 1], text_score[k]
+            text_score[k], text_score[k + 1] = text_score[k + 1], text_score[k], \
+                                               text_salience[k]
 
 print('Text: {}'.format(text))
 print('Sentiment: {}, {}'.format(sentiment.score, sentiment.magnitude))
 print(text_name)
+
+# for entity in text_name:
+#     if entity.type ==
