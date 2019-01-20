@@ -60,10 +60,11 @@ def make_lists(color, text):
             text_name.remove(entity.name)
             del text_score[index]
 
-    # take the first 3 entities with the highest salience,
-    # if the len(text_name) >= 3
+    # take the first n entities with the highest salience,
+    # if the len(text_name) >= n
     # otherwise, take all entities in text_name
-    i = min(3, len(text_name))
+    NUM_ENTITIES = 3
+    i = min(NUM_ENTITIES, len(text_name)) #min not taking min value??
     first_three_entities = text_name[:i]
     first_three_entities_score = text_score[:i]
 
@@ -78,19 +79,23 @@ def make_lists(color, text):
         for sentence in sentence_list:
             whether_in = 0
             score = 0
-            if first_three_entities[0] in sentence:
-                whether_in = 1
-            elif first_three_entities[1] in sentence:
-                whether_in = 1
-            elif first_three_entities[2] in sentence:
-                whether_in = 1
+            for q in range(i):
+                if first_three_entities[q] in sentence:
+                    whether_in = 1
+            #if ((first_three_entities[0] in sentence or
+ #              first_three_entities[1] in sentence) or
+ #              first_three_entities[2] in sentence):
+ #               whether_in = 1
             if whether_in == 1:
-                if first_three_entities[0] in sentence:
-                    score += first_three_entities_score[0]
-                elif first_three_entities[1] in sentence:
-                    score += first_three_entities_score[1]
-                elif first_three_entities[2] in sentence:
-                    score += first_three_entities_score[2]
+                for q in range(i):
+                    if first_three_entities[q] in sentence:
+                        score += first_three_entities_score[q]
+                #if first_three_entities[0] in sentence:
+ #                   score += first_three_entities_score[0]
+ #               elif first_three_entities[1] in sentence:
+#                    score += first_three_entities_score[1]
+#                elif first_three_entities[2] in sentence:
+#                    score += first_three_entities_score[2]
             if (score == 0 and whether_in == 1) is True:
                 yellow.append(sentence)
             elif score < 0:
