@@ -16,7 +16,6 @@ def find_sentences(paragraph):
             paragraph = paragraph[:end]
     sentences.append(paragraph)
     sentences.reverse()
-    print(sentences)
     return sentences
 
 
