@@ -51,9 +51,6 @@ for j in range(0, length - 1):
                                                      text_salience[k]
             text_score[k], text_score[k + 1] = text_score[k + 1], text_score[k]
 
-print('Text: {}'.format(text))
-print('Sentiment: {}, {}'.format(sentiment.score, sentiment.magnitude))
-
 for entity in response.entities:
     entity_type = enums.Entity.Type(entity.type)
     if entity_type.name == "OTHER":
@@ -61,20 +58,39 @@ for entity in response.entities:
         text_name.remove(entity.name)
         del text_score[index]
 
-print(len(text_name))
-
 i = min(3, len(text_name))
 first_three_entities = text_name[:i]
 first_three_entities_score = text_score[:i]
 
 sentence_list = find_sentences(text_to_read)
-list_extract = []
+blue = []
+red = []
+yellow = []
 for sentence in sentence_list:
+    whether_in = 0
+    score = 0
     if first_three_entities[0] in sentence:
-        list_extract.append(sentence)
+        whether_in = 1
     elif first_three_entities[1] in sentence:
-        list_extract.append(sentence)
+        whether_in = 1
     elif first_three_entities[2] in sentence:
-        list_extract.append(sentence)
+        whether_in = 1
+    if whether_in == 1:
+        if first_three_entities[0] in sentence:
+            score += first_three_entities_score[0]
+        elif first_three_entities[1] in sentence:
+            score += first_three_entities_score[1]
+        elif first_three_entities[2] in sentence:
+            score += first_three_entities_score[2]
+    if (score == 0 and whether_in == 1) is True:
+        yellow.append(sentence)
+    elif score < 0:
+        blue.append(sentence)
+    elif score > 0:
+        red.append(sentence)
 
-print(list_extract)
+print(yellow)
+print("\n\n\n")
+print(blue)
+print("\n\n\n")
+print(red)
