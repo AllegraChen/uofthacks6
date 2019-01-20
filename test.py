@@ -2,6 +2,7 @@
 from google.cloud import language
 from google.cloud.language import enums
 from google.cloud.language import types
+from split_article import find_sentences
 
 # Instantiates a client
 client = language.LanguageServiceClient()
@@ -47,3 +48,6 @@ for j in range(0, length - 1):
 print('Text: {}'.format(text))
 print('Sentiment: {}, {}'.format(sentiment.score, sentiment.magnitude))
 print(text_name)
+
+# for entity in text_name:
+#     if entity.type ==
