@@ -18,7 +18,7 @@ sentiment = client.analyze_sentiment(document=document).document_sentiment
 response = client.analyze_entities(document=document, encoding_type='UTF32')
 # Detects the entities' score of the text
 response_two = client.analyze_entity_sentiment(document=document,
-                                               encoding_type='UFT32')
+                                               encoding_type='UTF32')
 # build four list containing all the information from the text
 # like the name, type,metadata and salience
 i = 0
@@ -49,6 +49,7 @@ for j in range(0, length - 1):
                                                      text_metadata[k]
             text_salience[k], text_salience[k + 1] = text_salience[k + 1], \
                                                      text_salience[k]
+            text_score[k], text_score[k + 1] = text_score[k + 1], text_score[k]
 
 print('Text: {}'.format(text))
 print('Sentiment: {}, {}'.format(sentiment.score, sentiment.magnitude))
